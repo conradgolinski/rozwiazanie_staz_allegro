@@ -1,0 +1,18 @@
+
+$url:'../fonts/';
+@mixin font-face($name,$ext:'.ttf') {
+	@font-face{
+	font-family: $name;
+	src:url(#{$url}#{$name}#{$ext})
+	}
+}
+ 
+
+@include font-face(Raleway-Bold);
+@include font-face(Raleway-Regular);
+@include font-face(Raleway-Light);
+@include font-face(Raleway-Medium);
+@include font-face(Raleway-SemiBold);
+@include font-face(Raleway-Thin);
+
+

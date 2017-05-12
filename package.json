@@ -1,0 +1,12 @@
+{
+  "name": "Zadanie_Stazowe_Allegro",
+  "version": "1.0.0",
+  "description": "zadanie dla allegro",
+  "main": "js/main.js",
+  "author": "Konrad Golinski",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

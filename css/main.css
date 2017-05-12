@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../fonts/Raleway-Bold.ttf); }
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../fonts/Raleway-Regular.ttf); }
+
+@font-face {
+  font-family: Raleway-Light;
+  src: url(../fonts/Raleway-Light.ttf); }
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(../fonts/Raleway-Medium.ttf); }
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(../fonts/Raleway-SemiBold.ttf); }
+
+@font-face {
+  font-family: Raleway-Thin;
+  src: url(../fonts/Raleway-Thin.ttf); }
+
+/*******************
+      TRANSITION    
+********************/
+/*******************
+       IMAGES    
+********************/
+/**********************
+      BORDER_RADIUS
+**********************/
+/*******************
+      CENTERING
+*******************/
+/*******************
+      POSITING
+********************/
+/*******************
+      ANIMATION
+********************/
+/******************
+    BACKGROUNDS
+******************/
+/*************************
+      MATERIAL DISIGN
+*************************/
+/* ****************
+    INK EFFECT
+*******************/
+/*********************
+//   FLOATING LABEL
+*********************/
+/* form starting stylings ------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  color: black; }
+
+*:focus, *:hover, *:active {
+  outline: none; }
+
+a:hover {
+  cursor: pointer; }
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*********************
+BOOTSTRAP
+*********************/
+.container, .container-fluid {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+a, a:focus, a:visited, a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff; }
+
+.row {
+  margin: 0; }
+
+/*********************
+BREAKPOINTS
+*********************/
+/********************
+ 	FONT AWESOME
+********************/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+.fa-1_5x {
+  font-size: 1.5em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-facebook:before {
+  content: ""; }
+
+.fa-google-plus:before {
+  content: ""; }
+
+.fa-pinterest:before {
+  content: ""; }
+
+.fa-instagram:before {
+  content: ""; }
+
+.fa-twitter:before {
+  content: ""; }
+
+.fa-youtube-play:before {
+  content: ""; }
+
+.fa-tumblr:before {
+  content: ""; }
+
+.fa-dribbble:before {
+  content: ""; }
+
+.fa-angle-down:before {
+  content: ""; }
+
+.fa-angle-left:before {
+  content: ""; }
+
+.fa-angle-right:before {
+  content: ""; }
+
+.fa-angle-up:before {
+  content: ""; }
+
+.fa-times:before {
+  content: ""; }
+
+.fa-bars:before {
+  content: ""; }
+
+.fa-shopping-cart:before {
+  content: ""; }
+
+.fa-search:before {
+  content: ""; }
+
+.fa-users:before {
+  content: ""; }
+
+.fa-eye:before {
+  content: ""; }
+
+.fa-commenting:before {
+  content: ""; }
+
+.fa-marker:before {
+  content: ""; }
+
+.main-container {
+  font-family: Raleway-Regular; }
+  .main-container .month-picker {
+    width: 220px;
+    margin-right: auto;
+    margin-left: auto; }
+    .main-container .month-picker.disabled {
+      opacity: 0.5;
+      pointer-events: none; }
+    .main-container .month-picker .group {
+      width: 100%;
+      position: relative;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      user-select: none;
+      outline: 1px solid #E0E0E0;
+      /* active state */
+      /* BOTTOM BARS ================================= */
+      /* active state */ }
+      .main-container .month-picker .group ul {
+        position: absolute;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        visibility: hidden;
+        overflow: hidden;
+        height: 0px;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s linear;
+        list-style-type: none;
+        padding-left: 10px;
+        z-index: 2; }
+        .main-container .month-picker .group ul li {
+          height: 40px;
+          color: #8B8B8B;
+          cursor: pointer;
+          font-size: 16px;
+          background-color: white;
+          -moz-transition: all 0.2s ease-in;
+          -o-transition: all 0.2s ease-in;
+          -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in; }
+          .main-container .month-picker .group ul li:nth-child(1) {
+            width: 85%; }
+          .main-container .month-picker .group ul li:hover {
+            color: black;
+            -moz-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            -webkit-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+            font-family: Raleway-Medium; }
+          .main-container .month-picker .group ul li.selected {
+            color: black;
+            font-family: Raleway-Medium; }
+      .main-container .month-picker .group .select {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        cursor: pointer; }
+        .main-container .month-picker .group .select .content {
+          padding-left: 10px;
+          font-size: 16px; }
+      .main-container .month-picker .group.on-select .select ~ ul {
+        position: relative;
+        height: 100%;
+        visibility: visible;
+        opacity: 1;
+        height: auto; }
+      .main-container .month-picker .group.on-select .select {
+        display: none; }
+      .main-container .month-picker .group:hover, .main-container .month-picker .group.on-select {
+        outline: 2px solid #898989; }
+      .main-container .month-picker .group:hover .select ~ .bar:before, .main-container .month-picker .group:hover .select ~ .bar:after {
+        background: #898989; }
+      .main-container .month-picker .group label {
+        color: #898989;
+        font-size: 16px;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 10px;
+        top: 12.30769px;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in; }
+      .main-container .month-picker .group.on-select .select ~ label, .main-container .month-picker .group.active .select ~ label, .main-container .month-picker .group.passive .select ~ label {
+        top: -8px;
+        font-size: 12.8px;
+        background-color: white;
+        left: 5px;
+        padding-left: 5px;
+        padding-right: 5px; }
+      .main-container .month-picker .group .bar {
+        position: relative;
+        display: block;
+        width: 100%; }
+      .main-container .month-picker .group .bar:before, .main-container .month-picker .group .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        position: absolute;
+        background: #5CC863;
+        -moz-transition: all 0.1s ease-in;
+        -o-transition: all 0.1s ease-in;
+        -webkit-transition: all 0.1s ease-in;
+        transition: all 0.1s ease-in; }
+      .main-container .month-picker .group.error .bar:before, .main-container .month-picker .group.error .bar:after {
+        background-color: #EC8A86; }
+      .main-container .month-picker .group.passive .bar:before, .main-container .month-picker .group.passive .bar:after {
+        background-color: transparent; }
+      .main-container .month-picker .group .bar:before {
+        left: 50%; }
+      .main-container .month-picker .group .bar:after {
+        right: 50%; }
+      .main-container .month-picker .group.active .select ~ .bar:before, .main-container .month-picker .group.active .select ~ .bar:after, .main-container .month-picker .group.error .select ~ .bar:before, .main-container .month-picker .group.error .select ~ .bar:after {
+        width: 50%; }
+      .main-container .month-picker .group .fa {
+        position: absolute;
+        top: 12.12121px;
+        right: 10px;
+        font-size: 22.4px;
+        z-index: 10;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in; }
+        .main-container .month-picker .group .fa.fa-rotate {
+          transform: rotate(180deg); }
+    .main-container .month-picker span.info {
+      color: #EC8A86;
+      display: none;
+      padding-top: 5px;
+      font-size: 13.33333px; }
+    .main-container .month-picker .group.error ~ span.info {
+      display: block; }
+  .main-container span.disabled {
+    width: 220px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    text-align: center;
+    font-size: 14px; }
+  .main-container input[type="checkbox"] {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer; }
