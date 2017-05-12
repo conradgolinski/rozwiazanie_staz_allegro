@@ -326,7 +326,7 @@ BREAKPOINTS
         top: 12.12121px;
         right: 10px;
         font-size: 22.4px;
-        z-index: 10;
+        cursor:pointer;
         -moz-transition: all 0.2s ease-in;
         -o-transition: all 0.2s ease-in;
         -webkit-transition: all 0.2s ease-in;
